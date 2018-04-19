@@ -1,4 +1,4 @@
-BEGIN { id = 0 }
+BEGIN { id = 1 }
 
 {
   if (FILENAME == "artists.txt") {

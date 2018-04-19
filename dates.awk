@@ -10,7 +10,6 @@ BEGIN { id = 0 }
   formatted = year month day hour
 
   if (!seen[date]++) {
-    id = id + 1;
-    print id "," date "," formatted
+    print id++ "," date "," formatted
   }
 }
